@@ -1,0 +1,16 @@
+{
+  "name": "Adhinath Portfolio",
+  "short_name": "Adhinath",
+  "description": "Portfolio of Adhinath, a self-taught developer building AI systems, operating systems, and web experiences.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#38BDF8",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building an Operating System in C - Adhinath</title>
+  <meta name="description" content="A short case study on building a bare-metal operating system in C and x86 assembly.">
+  <link rel="canonical" href="https://adhinath-developer.github.io/portfolio/blog/os-in-c.html">
+  <link rel="stylesheet" href="../styles-blog.css">
+</head>
+<body>
+  <main class="article">
+    <a class="back" href="../index.html#blog">Back to portfolio</a>
+    <p class="eyebrow">Operating Systems</p>
+    <h1>Building an Operating System in C</h1>
+    <p class="lead">Writing an operating system teaches patience because nothing exists until you build it: output, memory, interrupts, files, and even the comfort of debugging.</p>
+    <h2>Core Flow</h2>
+    <pre>Bootloader -> kernel entry -> VGA output -> GDT/IDT -> interrupts -> memory -> shell</pre>
+    <h2>Challenges</h2>
+    <p>The work is unforgiving. A wrong address, missing descriptor, or broken linker script can stop the system before it can explain what happened.</p>
+    <h2>Why It Matters</h2>
+    <p>OS development makes high-level programming feel different because you understand what the machine is doing underneath the abstractions.</p>
+  </main>
+</body>
+</html>
